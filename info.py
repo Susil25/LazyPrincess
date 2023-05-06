@@ -42,7 +42,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Susilsupportchat')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [Susil Movies™](https://t.me/Susil_movies25)</b>⚡\n\n🎦 <b>File Name: </b> ➥  <i>{file_caption}</i>\n⚙️ <b>Size: </b><i>{file_size}</i>\n\n                ❤️<b>WE LOVE YOU</b>❤️\n🔥  ↭ <b>Join Now [Susil Movies™](https://t.me/Susil_movies25)</b> ↭  🔥")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [Susil Movies™](https://t.me/Susil_movies25)</b>⚡\n\n🎦 <b>File Name: </b>\n⚙️ <b>Size: </b><i>{file_size}</i>\n\n                ❤️<b>WE LOVE YOU</b>❤️\n🔥  ↭ <b>Join Now [Susil Movies™](https://t.me/Susil_movies25)</b> ↭  🔥")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n‌‌‌‌IMDb Data by: @Susil25_movie \n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 \n\n♥️ we are nothing without you ♥️ \n\n💛 Please Share Us 💛\n\n⚠️Click on the button 👇 below to get your query privately")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "True"), False)
@@ -64,7 +64,7 @@ REQ_CHANNEL = int(environ.get('REQ_CHANNEL'))
 
 #ai
 AI = is_enabled((environ.get("AI","True")), False)
-OPENAI_API = environ.get("OPENAI_API","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")
+OPENAI_API = environ.get("OPENAI_API","")
 LAZY_AI_LOGS = int(environ.get("LAZY_AI_LOGS","-1001943030560")) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of LazyPrincess ]
 # Requested Content template variables ---
 ADMIN_USRNM = environ.get('ADMIN_USRNM','Susil25_movie') # WITHOUT @
